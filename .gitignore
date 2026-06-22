@@ -1,0 +1,11 @@
+build/
+dist/
+.generated_files/
+
+nbproject/private/
+
+*.elf
+*.lst
+*.map
+*.obj
+*.o
