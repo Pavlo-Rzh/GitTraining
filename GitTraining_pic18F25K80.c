@@ -76,6 +76,7 @@ const unsigned short SredPwm=4500;  // PWM 1,5ms  ?? ????????? ??  ?????? ??????
  
 unsigned char Vtest=1;//////////////////////////////////////////////
 unsigned short Vtest2 = 100;///////////////////
+unsigned short Vtest3 = 100500;/////////////////
 
 volatile unsigned char AdcDelay=0, FgReadyUsart=0, FlagStartSendUsart=0, SendTimeUsart=0;
 volatile unsigned char	FgBuf=0, UsartWdt=0;
