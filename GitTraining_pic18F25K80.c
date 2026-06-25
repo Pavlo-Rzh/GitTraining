@@ -81,6 +81,7 @@ float QWER1=1.2345f;/////////////////////////
 float asdf=6.789f;
 unsigned short Vtest4 = 0, Vtest5 = 1, Vtest6 = 200;
 signed short Vref7=101;
+int Vref_m = 888;
 
 volatile unsigned char AdcDelay=0, FgReadyUsart=0, FlagStartSendUsart=0, SendTimeUsart=0;
 volatile unsigned char	FgBuf=0, UsartWdt=0;
