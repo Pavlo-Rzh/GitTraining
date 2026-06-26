@@ -73,7 +73,7 @@
 //=========================
 
 const unsigned short SredPwm=4500;  // PWM 1,5ms  ?? ????????? ??  ?????? ??????? 4500*0.03333 = 1.5 ms
- 
+//===========================================================================================
 unsigned char Vtest=1;//////////////////////////////////////////////
 ///////////////////
 unsigned short Vtest3 = 100500;/////////////////
@@ -83,6 +83,16 @@ unsigned short Vtest4 = 0, Vtest5 = 1, Vtest6 = 200;
 signed short Vref7=101;
 int Vref_m = 888;
 
+int Vref_fr = 999;
+int Vref_qw = 1000;
+int Vref_er = 1001;
+int Vref_ty = 1002;
+
+short v1 = 1;
+short v2 = 2;
+short v3 = 3;
+short v4 = 4;
+//============================================================================================
 volatile unsigned char AdcDelay=0, FgReadyUsart=0, FlagStartSendUsart=0, SendTimeUsart=0;
 volatile unsigned char	FgBuf=0, UsartWdt=0;
 unsigned char MasUsartRead[12], ArrUsartReady[12], SendDataUsart[12];
