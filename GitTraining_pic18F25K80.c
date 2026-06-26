@@ -92,6 +92,8 @@ short v1 = 1;
 short v2 = 2;
 short v3 = 3;
 short v4 = 4;
+
+int V_sec_dev = 300;
 //============================================================================================
 volatile unsigned char AdcDelay=0, FgReadyUsart=0, FlagStartSendUsart=0, SendTimeUsart=0;
 volatile unsigned char	FgBuf=0, UsartWdt=0;
